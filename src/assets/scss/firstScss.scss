@@ -1,0 +1,12 @@
+$bodyColor: black;
+$textColor: white;
+
+%textTemplate {
+    color: $textColor;
+    padding: 10px;
+}
+
+body{
+    background-color: $bodyColor;
+    @extend %textTemplate;
+}
